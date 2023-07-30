@@ -1,6 +1,7 @@
 module ca.georgian.jl.javaassign {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
 
     opens ca.georgian.jl.javaassign to javafx.fxml;
