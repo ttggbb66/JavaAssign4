@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ca.georgiancollege.jl</groupId>
-    <artifactId>JavaAssign4</artifactId>
+    <groupId>ca.georgian.jl</groupId>
+    <artifactId>JavaAssign</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>JavaAssign4</name>
+    <name>JavaAssign</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,9 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>
-                                ca.georgiancollege.jl.javaassign4/ca.georgiancollege.jl.javaassign4.HelloApplication
-                            </mainClass>
+                            <mainClass>ca.georgian.jl.javaassign/ca.georgian.jl.javaassign.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

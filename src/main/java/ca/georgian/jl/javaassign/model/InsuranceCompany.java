@@ -1,3 +1,5 @@
+package ca.georgian.jl.javaassign.model;
+
 public class InsuranceCompany {
 
     public int idCompany;

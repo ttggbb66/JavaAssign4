@@ -1,3 +1,4 @@
+package ca.georgian.jl.javaassign.model;
 
 public class Customer {
     public String nameCustomer;

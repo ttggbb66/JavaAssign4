@@ -1,3 +1,5 @@
+package ca.georgian.jl.javaassign.model;
+
 import java.util.Date;
 
 public class Claim {
